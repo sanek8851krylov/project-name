@@ -11,11 +11,10 @@ import { UserEntity } from './users/user.entity/user.entity';
     host: 'localhost',
     port: 3306,
     username: 'root',
-    password: 'password',
-    database: 'library',
-    entities: [UserEntity],
-    synchronize: true,
-    dropSchema: true
+    password: 'helytdf27',
+    database: 'user_base',
+    entities: [],
+    synchronize: false
   }),
             UsersModule],
   controllers: [AppController],
